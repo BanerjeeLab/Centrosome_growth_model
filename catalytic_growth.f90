@@ -40,7 +40,6 @@
 
 !------------------------------------------------------
 
-	open(unit=100,file='data/ab.txt',status='unknown')
 	open(unit=200,file='data/l.txt',status='unknown')
 
 !------------------------------------------------------
@@ -173,7 +172,6 @@
 	
 	if((t-t0)/(delt+nk*delt).ge.1.d0) then
 	write(200,*)t,l1*dv,l2*dv,m,ms,le,me
-	write(100,*)t,l1*dv-l2*dv
 	msize = msize + (l1+l2)*dv/2.d0
 	nk=nk+1
 	endif
