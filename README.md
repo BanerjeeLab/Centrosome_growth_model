@@ -2,8 +2,9 @@
 This repository contains the codes used to study size regulation of centrosomes during centrosome maturation before cell division. Please see the corresponding [publication](https://duckduckgo.com) for more information. We used these codes to simulate stochastic growth of centrosomes in a cell with finite amount of building blocks. It includes codes for the different models used such as autocatalytic and catalytic growth etc as we describe below.  
 
 **Some background information**
-* The codes are written in FORTRAN90 and compiled and used in a linux environment
-* We use Gillespie's first algorithm [1] to evluate the next reaction
+* The codes are written in FORTRAN90 and compiled and used in a linux environment.
+* We use [Gillespie's first algorithm] [1] to evluate the stochastic trajectories based on the corresponding chemical master equations.
+* To simulate diffusion, we have modelled it as a reaction based on [the work of D. Bernstein][2].
 
 
 
