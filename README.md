@@ -1,5 +1,5 @@
 # Centrosome_growth_model
-This repository contains the codes used to study size regulation of centrosomes during centrosome maturation before cell division. Please see the corresponding [publication](https://duckduckgo.com) for more information. We used these codes to simulate stochastic growth of centrosomes in a cell with finite amount of building blocks. It includes codes for the different models used such as autocatalytic and catalytic growth etc as we describe below.  
+This repository contains the codes used to study size regulation of centrosomes during centrosome maturation before cell division. Please see the corresponding [publication](https://doi.org/10.7554/eLife.92203.1) for more information. We used these codes to simulate stochastic growth of centrosomes in a cell with finite amount of building blocks. It includes codes for the different models used such as autocatalytic and catalytic growth etc as we describe below.  
 
 **Some background information**
 * The codes are written in FORTRAN90 and compiled and used in a linux environment.
