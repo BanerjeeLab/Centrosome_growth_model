@@ -11,7 +11,7 @@ This repository contains the codes used to study size regulation of centrosomes 
 * A repository named "data" where the output files will be written
 
 **Output data**
-
+* In the codes "autocatalytic_growth.f90" and "catalytic_growth.f90" the output file "l.txt" contains four columns : `t,l1*dv,l2*dv,m`
 
 
 
