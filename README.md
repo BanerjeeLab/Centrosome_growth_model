@@ -6,7 +6,11 @@ This repository contains the codes used to study size regulation of centrosomes 
 * We use [Gillespie's first algorithm](https://pubs.acs.org/doi/10.1021/j100540a008) to evluate the stochastic trajectories based on the corresponding chemical master equations.
 * To simulate diffusion, we have modelled it as a reaction based on the [work of D. Bernstein](https://doi.org/10.1103/PhysRevE.71.041103).
 
+**Prerequisites**
+* G-fortran software
+* A repository named "data" where the output files will be written
 
+**Output data**
 
 
 
