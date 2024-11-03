@@ -12,7 +12,8 @@ This repository contains the codes used to study size regulation of centrosomes 
 * A repository named "data" where the output files will be written
 
 **Output data**
-* In the codes "autocatalytic_growth.f90" and "catalytic_growth.f90" the output file "l.txt" contains four columns : `t,l1*dv,l2*dv,m` which denote time (in sec), volume of the first centrosome (in micro-meter cube), volume of the second centrosome (in micro-meter cube), building blocks in the cytoplasmic pool
+* In the code "autocatalytic_growth.f90" the output file "l.txt" contains four columns : `t,l1*dv,l2*dv,m` which denote time (in sec), volume of the first centrosome (in micro-meter cube), volume of the second centrosome (in micro-meter cube), building blocks in the cytoplasmic pool.
+* In the code "catalytic_growth.f90" the output file "l.txt" contains four columns : `t,(l1)*dv,(l2)*dv,m,ms,le,me` which denote time (in sec), volume of the first centrosome (in micro-meter cube), volume of the second centrosome (in micro-meter cube), inactive subunits in the cytoplasmic pool, active subunits in the cytoplasmic pool, active enzymes in the cytoplasmic pool, inactive enzymes in the cytoplasmic pool.
 
 
 
