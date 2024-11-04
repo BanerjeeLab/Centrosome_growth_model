@@ -3,6 +3,7 @@ This repository contains the codes used to study the size regulation of centroso
 
 **Codes in this repo**
 describe what each code does
+
 **Some background information**
 * The codes are written in FORTRAN90 and compiled and used in a Linux environment.
 * We use [Gillespie's first algorithm](https://pubs.acs.org/doi/10.1021/j100540a008) to evaluate the stochastic trajectories based on the corresponding chemical master equations.
